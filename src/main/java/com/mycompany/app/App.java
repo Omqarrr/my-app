@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! new chnages bought to test mvn v3.0" );
+        System.out.println( "Hello World! new chnages bought to test mvn v4.0" );
     }
 }
