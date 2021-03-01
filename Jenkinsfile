@@ -11,7 +11,7 @@ node {
          stage ('Maven Package') {    
            
             def mvnHome = tool name: 'Maven-CICD', type: 'maven'
-           sh '${mvnHome}/bin/mvn package'          
+           sh "${mvnHome}/bin/mvn package"           
          }
 
 }
