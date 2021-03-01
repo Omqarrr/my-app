@@ -5,8 +5,7 @@ node {
     git 'https://github.com/Omqarrr/my-app'
   }
          
-         stage ('Maven Package') {
-          
+         stage ('Maven Package') {          
            sh 'mvn package'          
          }
 
