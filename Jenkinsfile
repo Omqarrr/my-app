@@ -2,7 +2,7 @@
 node {
 
   stage ('SCM checkout') {
-    git 'https://github.com/Omqarrr/my-app'
+    git branch: 'main', url: 'https://github.com/Omqarrr/my-app'
   }
          
          stage ('Maven Package') {          
